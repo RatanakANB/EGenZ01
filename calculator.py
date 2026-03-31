@@ -2,8 +2,9 @@ import math
 from logger import log_action
 
 def add(a, b):
-    # TODO: {#{1}} Member 01: Implement addition
-    pass
+    result = a + b
+    log_action("add", result)
+    return result
 
 def subtract(a, b):
     # TODO: {#{2}} Member 02: Implement subtraction
