@@ -3,7 +3,7 @@ from logger import log_action
 
 def add(a, b):
     result = a + b
-    log_action("adda", result)
+    log_action("addaa", result)
     return result
 
 def subtract(a, b):
